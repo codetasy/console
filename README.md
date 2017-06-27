@@ -2,9 +2,18 @@
 Initialize a sample [Codetasy.Cli](https://github.com/codetasy/cli) .NET Core console application.
 
 ## Install pre-requisites
-[.Net Core](https://www.microsoft.com/net/core) 
+[.Net Core](https://www.microsoft.com/net/core)
+
+## Local setup
+```bat
+git clone https://github.com/codetasy/console.git
+cd console/src
+dotnet restore
+```
 
 ## How to Register a new command
+[Take a look to our Action class sample](/src/Action.cs)
+
 Define a `public class` in your project with a `public method` declared as `[Command]`
 
 ```csharp
