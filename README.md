@@ -1,5 +1,5 @@
-# Codetasy Console
-Initialize a sample [Codetasy.Cli](https://github.com/codetasy/cli) .NET Core console application.
+# Console
+Initialize a sample [C# Cli](https://github.com/jorgeveranet/cli) .NET Core console application.
 
 ## Install pre-requisites
 [.Net Core](https://www.microsoft.com/net/core)
